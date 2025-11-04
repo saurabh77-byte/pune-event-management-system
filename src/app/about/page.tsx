@@ -11,7 +11,7 @@ export default function AboutPage() {
       
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About EventHub Pune</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Venue Oraganization</h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
             Your trusted platform for discovering and managing events in Pune
           </p>
@@ -25,7 +25,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="mb-4">
-                EventHub Pune was born from a simple idea: to make discovering and attending events 
+                Venue Oraganization was born from a simple idea: to make discovering and attending events 
                 in Pune easier and more enjoyable for everyone. We noticed that while Pune has a vibrant 
                 cultural scene with countless events happening every day, finding and booking these events 
                 was often fragmented and complicated.
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <p className="mb-4">
                 Our platform brings together event organizers and attendees in one seamless experience. 
                 Whether you're looking for a concert, conference, workshop, or cultural festival, 
-                EventHub Pune makes it simple to find, book, and manage your event experience.
+                Venue Oraganization makes it simple to find, book, and manage your event experience.
               </p>
               <p>
                 Today, we're proud to serve thousands of users and hundreds of event managers across 
@@ -153,7 +153,7 @@ export default function AboutPage() {
               <p>
                 <strong className="text-foreground">Address:</strong> 
                 <br />
-                EventHub Pune Headquarters
+                Venue Oraganization Headquarters
                 <br />
                 Baner, Pune, Maharashtra 411045
               </p>

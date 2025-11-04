@@ -41,7 +41,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Calendar className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">EventHub Pune</span>
+          <span className="text-xl font-bold">Venue Oraganization</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-6">
