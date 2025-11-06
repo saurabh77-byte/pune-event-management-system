@@ -71,10 +71,10 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-              Discover Amazing Events in Pune
+              Discover Amazing Venues 
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              From concerts to conferences, find and book the best events happening in your city
+              From concerts to conferences, find and book the best venue happening in your city
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary hover:bg-gray-100">
@@ -141,7 +141,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Browse by Category</h2>
-            <p className="text-muted-foreground text-lg">Find events that match your interests</p>
+            <p className="text-muted-foreground text-lg">Find venues that match your interests</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {categories.map((category) => (
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-12">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-2">Featured Events</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-2">Featured Parties</h2>
               <p className="text-muted-foreground text-lg">Popular events happening soon in Pune</p>
             </div>
             <Button asChild variant="outline">
@@ -239,9 +239,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Create Your Own Events?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Create Your Own Venues?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Join hundreds of event managers in Pune who are creating amazing experiences
+            Join hundreds of venue managers  who are creating amazing experiences
           </p>
           <Button size="lg" asChild className="bg-white text-primary hover:bg-gray-100">
             <Link href="/sign-up">Get Started Today</Link>
@@ -256,7 +256,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Calendar className="h-6 w-6" />
-                <span className="text-xl font-bold">EventHub Pune</span>
+                <span className="text-xl font-bold">Venue Oragnization</span>
               </div>
               <p className="text-gray-400">
                 Your one-stop platform for discovering and booking events in Pune
@@ -287,7 +287,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 EventHub Pune. All rights reserved.</p>
+            <p>&copy; 2024 Venue Oraganization. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -5,8 +5,8 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "EventHub Pune - Discover & Book Amazing Events",
-  description: "Find and book the best events in Pune. From concerts to conferences, discover amazing experiences happening in your city.",
+  title: "Venue Organization",
+  description: "The premier platform for managing events and venues in Pune. From concerts to conferences, discover amazing experiences happening in your city.",
 };
 
 export default function RootLayout({
